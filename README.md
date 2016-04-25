@@ -133,3 +133,13 @@ This procedure has been validated to work with the following configuration:
 * *Ubuntu Linux 14.04 LTS*
 * *arduino 1.6.4*
 * *Visual Studio Code 0.9.x*
+* 
+
+### Note 2
+* Working on windows too. Change command in tasks.json to full path
+* e.g. 
+* "command": "e:\\Program Files (x86)\\Arduino\\arduino.exe",
+* 
+Run Build Tasks (Ctrl + Shift + B) will compile
+Run Test Tasks (Ctrl + Shift + T) will compile and upload 
+
